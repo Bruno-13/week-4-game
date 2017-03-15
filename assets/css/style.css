@@ -1,0 +1,110 @@
+body {
+	background-color: black;
+	color: white;
+	max-width: 100%;
+    height: auto;
+}
+
+h1 {
+	font-size: 45px;
+	color: #437cef;
+	text-align: center;
+	padding: 10px;
+    font-family: 'Audiowide', cursive;
+}
+
+h1:hover {
+  animation: neon2 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+
+h2 {
+	font-size: 35px;
+	font-family: 'Audiowide', cursive;
+	padding: 10px;
+}
+
+h3 {
+	font-family: 'Audiowide', cursive;
+	font-size: 25px;
+	letter-spacing: 3px;
+	color: #855de2;
+}
+
+p {
+	padding: 10px;
+	font-family: arial;
+	font-size: 16px;
+}
+
+.blueCrystal:hover {
+	background-image: url('../images/blue-glow.png');
+	cursor: pointer;
+}
+
+.blueCrystal:active {
+	background-image: url('../images/blue-click.png');
+	cursor: pointer;
+}
+
+.redCrystal:hover {
+	background-image: url('../images/red-glow.png');
+	cursor: pointer;
+}
+
+.redCrystal:active {
+	background-image: url('../images/red-click.png');
+	cursor: pointer;
+}
+
+.purpleCrystal:hover {
+	background-image: url('../images/purple-glow.png');
+	cursor: pointer;
+}
+
+.purpleCrystal:active {
+	background-image: url('../images/purple-click.png');
+	cursor: pointer;
+}
+
+.greenCrystal:hover {
+	background-image: url('../images/green-glow.png');
+	cursor: pointer;
+}
+
+.greenCrystal:active {
+	background-image: url('../images/green-click.png');
+	cursor: pointer;
+}
+
+.numberDisplay {
+	font-size: 35px;
+	color: green;
+	font-family: 'Audiowide', cursive;
+}
+
+.guessDisplay {
+	font-size: 35px;
+	color: red;
+	font-family: 'Audiowide', cursive;
+}
+
+.underline {
+	padding: 50px 30px;
+	font-size: 35px;
+	color: red;
+	font-family: 'Audiowide', cursive;
+	text-decoration: underline;
+}
+
+.stats p {
+	font-size: 25px;
+}
